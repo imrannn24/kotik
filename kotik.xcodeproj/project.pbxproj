@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2AD15E2E29F92D17005D5D22 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E2D29F92D17005D5D22 /* main.swift */; };
+		2AD15E3529F92DBF005D5D22 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E3429F92DBF005D5D22 /* Supplier.swift */; };
+		2AD15E3729F92DF3005D5D22 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E3629F92DF3005D5D22 /* Store.swift */; };
+		2AD15E3929F92E13005D5D22 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD15E3829F92E13005D5D22 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		2AD15E2A29F92D17005D5D22 /* kotik */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kotik; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD15E2D29F92D17005D5D22 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2AD15E3429F92DBF005D5D22 /* Supplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		2AD15E3629F92DF3005D5D22 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		2AD15E3829F92E13005D5D22 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				2AD15E2D29F92D17005D5D22 /* main.swift */,
+				2AD15E3429F92DBF005D5D22 /* Supplier.swift */,
+				2AD15E3629F92DF3005D5D22 /* Store.swift */,
+				2AD15E3829F92E13005D5D22 /* Product.swift */,
 			);
 			path = kotik;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD15E3729F92DF3005D5D22 /* Store.swift in Sources */,
+				2AD15E3929F92E13005D5D22 /* Product.swift in Sources */,
 				2AD15E2E29F92D17005D5D22 /* main.swift in Sources */,
+				2AD15E3529F92DBF005D5D22 /* Supplier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
